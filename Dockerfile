@@ -1,1 +1,1 @@
-FROM dolfinx/lab:430c961e2a6d
+FROM dolfinx/lab:nightly  
