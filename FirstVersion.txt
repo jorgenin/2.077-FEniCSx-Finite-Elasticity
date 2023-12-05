@@ -1,0 +1,217 @@
+INFO:ffcx:Final option values
+INFO:ffcx:{'epsilon': 1e-14,
+ 'profile': True,
+ 'scalar_type': 'double',
+ 'table_atol': 1e-09,
+ 'table_rtol': 1e-06,
+ 'verbosity': 10}
+INFO:ffcx:Final option values
+INFO:ffcx:{'epsilon': 1e-14,
+ 'profile': True,
+ 'scalar_type': 'double',
+ 'table_atol': 1e-09,
+ 'table_rtol': 1e-06,
+ 'verbosity': 10}
+INFO:ffcx:*******************************************************************************
+INFO:ffcx:Compiler stage 1: Analyzing UFL objects
+INFO:ffcx:*******************************************************************************
+INFO:ffcx:Integral 0, integral group 0:
+INFO:ffcx:--- quadrature rule: default
+INFO:ffcx:--- quadrature degree: 4
+INFO:ffcx:Compiler stage 1 finished in 0.0391 seconds.
+INFO:ffcx:*******************************************************************************
+INFO:ffcx:Compiler stage 2: Computing intermediate representation of objects
+INFO:ffcx:*******************************************************************************
+INFO:ffcx:Computing IR for element Basix element (P, tetrahedron, 2, gll_warped, unset, False)
+INFO:ffcx:Computing IR for element blocked element (Basix element (P, tetrahedron, 2, gll_warped, unset, False), (3,))
+INFO:ffcx:Computing IR for element Basix element (P, tetrahedron, 1, gll_warped, unset, False)
+INFO:ffcx:Computing IR for element mixed element (blocked element (Basix element (P, tetrahedron, 2, gll_warped, unset, False), (3,)), Basix element (P, tetrahedron, 1, gll_warped, unset, False))
+INFO:ffcx:Computing IR for element Basix element (P, tetrahedron, 1, equispaced, unset, False)
+INFO:ffcx:Computing IR for element blocked element (Basix element (P, tetrahedron, 1, equispaced, unset, False), (3,))
+INFO:ffcx:Computing IR for dofmap of Basix element (P, tetrahedron, 2, gll_warped, unset, False)
+INFO:ffcx:Computing IR for dofmap of blocked element (Basix element (P, tetrahedron, 2, gll_warped, unset, False), (3,))
+INFO:ffcx:Computing IR for dofmap of Basix element (P, tetrahedron, 1, gll_warped, unset, False)
+INFO:ffcx:Computing IR for dofmap of mixed element (blocked element (Basix element (P, tetrahedron, 2, gll_warped, unset, False), (3,)), Basix element (P, tetrahedron, 1, gll_warped, unset, False))
+INFO:ffcx:Computing IR for dofmap of Basix element (P, tetrahedron, 1, equispaced, unset, False)
+INFO:ffcx:Computing IR for dofmap of blocked element (Basix element (P, tetrahedron, 1, equispaced, unset, False), (3,))
+INFO:ffcx:Computing IR for integral in integral group 0
+INFO:ffcx:Computing IR for form 0
+INFO:ffcx:Compiler stage 2 finished in 0.1063 seconds.
+INFO:ffcx:*******************************************************************************
+INFO:ffcx:Compiler stage 3: Generating code
+INFO:ffcx:*******************************************************************************
+INFO:ffcx:Generating code for finite element:
+INFO:ffcx:--- family: P
+INFO:ffcx:--- degree: 2
+INFO:ffcx:--- value shape: ()
+INFO:ffcx:--- name: element_7ff7876f35b35b7eccf645c38b0fa027ce8ced7a
+INFO:ffcx:Generating code for finite element:
+INFO:ffcx:--- family: P
+INFO:ffcx:--- degree: 2
+INFO:ffcx:--- value shape: (3,)
+INFO:ffcx:--- name: element_ba369df506221e2209da2e2a118d5efcdb843216
+INFO:ffcx:Generating code for finite element:
+INFO:ffcx:--- family: P
+INFO:ffcx:--- degree: 1
+INFO:ffcx:--- value shape: ()
+INFO:ffcx:--- name: element_96701cf52cd301773ecbe3eb25e4aa6cb56df901
+INFO:ffcx:Generating code for finite element:
+INFO:ffcx:--- family: mixed element
+INFO:ffcx:--- degree: 2
+INFO:ffcx:--- value shape: (4,)
+INFO:ffcx:--- name: element_a8099055e98bc46dc8d4fed45b7ea8eafbb1a0ba
+INFO:ffcx:Generating code for finite element:
+INFO:ffcx:--- family: P
+INFO:ffcx:--- degree: 1
+INFO:ffcx:--- value shape: ()
+INFO:ffcx:--- name: element_e14407e74524d0bcd170b30f13b384a5020a7b53
+INFO:ffcx:Generating code for finite element:
+INFO:ffcx:--- family: P
+INFO:ffcx:--- degree: 1
+INFO:ffcx:--- value shape: (3,)
+INFO:ffcx:--- name: element_f1813b48af98d7c9c1024eed541377b647b2c843
+INFO:ffcx:Generating code for dofmap:
+INFO:ffcx:--- num element support dofs: 10
+INFO:ffcx:--- name: dofmap_7ff7876f35b35b7eccf645c38b0fa027ce8ced7a
+INFO:ffcx:Generating code for dofmap:
+INFO:ffcx:--- num element support dofs: 10
+INFO:ffcx:--- name: dofmap_ba369df506221e2209da2e2a118d5efcdb843216
+INFO:ffcx:Generating code for dofmap:
+INFO:ffcx:--- num element support dofs: 4
+INFO:ffcx:--- name: dofmap_96701cf52cd301773ecbe3eb25e4aa6cb56df901
+INFO:ffcx:Generating code for dofmap:
+INFO:ffcx:--- num element support dofs: 34
+INFO:ffcx:--- name: dofmap_a8099055e98bc46dc8d4fed45b7ea8eafbb1a0ba
+INFO:ffcx:Generating code for dofmap:
+INFO:ffcx:--- num element support dofs: 4
+INFO:ffcx:--- name: dofmap_e14407e74524d0bcd170b30f13b384a5020a7b53
+INFO:ffcx:Generating code for dofmap:
+INFO:ffcx:--- num element support dofs: 4
+INFO:ffcx:--- name: dofmap_f1813b48af98d7c9c1024eed541377b647b2c843
+INFO:ffcx:Generating code for integral:
+INFO:ffcx:--- type: cell
+INFO:ffcx:--- name: integral_8d70c2ec3bf9535672af22e88a47dbcbd8146e12
+INFO:ffcx:Generating code for form:
+INFO:ffcx:--- rank: 1
+INFO:ffcx:--- name: form_5e1c3da66922b7987ccb7b90dd76c2e06daf6b24
+INFO:ffcx:Generating code for file
+INFO:ffcx:Compiler stage 3 finished in 0.0988 seconds.
+INFO:ffcx:*******************************************************************************
+INFO:ffcx:Compiler stage 5: Formatting code
+INFO:ffcx:*******************************************************************************
+INFO:ffcx:Compiler stage 4 finished in 0.0025 seconds.
+INFO:ffcx:###############################################################################
+INFO:ffcx:Calling JIT C compiler
+INFO:ffcx:###############################################################################
+ld: warning: -pie being ignored. It is only used when linking a main executable
+INFO:ffcx:Final option values
+INFO:ffcx:{'epsilon': 1e-14,
+ 'profile': True,
+ 'scalar_type': 'double',
+ 'table_atol': 1e-09,
+ 'table_rtol': 1e-06,
+ 'verbosity': 10}
+INFO:ffcx:Final option values
+INFO:ffcx:{'epsilon': 1e-14,
+ 'profile': True,
+ 'scalar_type': 'double',
+ 'table_atol': 1e-09,
+ 'table_rtol': 1e-06,
+ 'verbosity': 10}
+INFO:ffcx:*******************************************************************************
+INFO:ffcx:Compiler stage 1: Analyzing UFL objects
+INFO:ffcx:*******************************************************************************
+INFO:ffcx:Integral 0, integral group 0:
+INFO:ffcx:--- quadrature rule: default
+INFO:ffcx:--- quadrature degree: 4
+INFO:ffcx:Compiler stage 1 finished in 0.0463 seconds.
+INFO:ffcx:*******************************************************************************
+INFO:ffcx:Compiler stage 2: Computing intermediate representation of objects
+INFO:ffcx:*******************************************************************************
+INFO:ffcx:Computing IR for element Basix element (P, tetrahedron, 2, gll_warped, unset, False)
+INFO:ffcx:Computing IR for element blocked element (Basix element (P, tetrahedron, 2, gll_warped, unset, False), (3,))
+INFO:ffcx:Computing IR for element Basix element (P, tetrahedron, 1, gll_warped, unset, False)
+INFO:ffcx:Computing IR for element mixed element (blocked element (Basix element (P, tetrahedron, 2, gll_warped, unset, False), (3,)), Basix element (P, tetrahedron, 1, gll_warped, unset, False))
+INFO:ffcx:Computing IR for element Basix element (P, tetrahedron, 1, equispaced, unset, False)
+INFO:ffcx:Computing IR for element blocked element (Basix element (P, tetrahedron, 1, equispaced, unset, False), (3,))
+INFO:ffcx:Computing IR for dofmap of Basix element (P, tetrahedron, 2, gll_warped, unset, False)
+INFO:ffcx:Computing IR for dofmap of blocked element (Basix element (P, tetrahedron, 2, gll_warped, unset, False), (3,))
+INFO:ffcx:Computing IR for dofmap of Basix element (P, tetrahedron, 1, gll_warped, unset, False)
+INFO:ffcx:Computing IR for dofmap of mixed element (blocked element (Basix element (P, tetrahedron, 2, gll_warped, unset, False), (3,)), Basix element (P, tetrahedron, 1, gll_warped, unset, False))
+INFO:ffcx:Computing IR for dofmap of Basix element (P, tetrahedron, 1, equispaced, unset, False)
+INFO:ffcx:Computing IR for dofmap of blocked element (Basix element (P, tetrahedron, 1, equispaced, unset, False), (3,))
+INFO:ffcx:Computing IR for integral in integral group 0
+INFO:ffcx:Computing IR for form 0
+INFO:ffcx:Compiler stage 2 finished in 0.1741 seconds.
+INFO:ffcx:*******************************************************************************
+INFO:ffcx:Compiler stage 3: Generating code
+INFO:ffcx:*******************************************************************************
+INFO:ffcx:Generating code for finite element:
+INFO:ffcx:--- family: P
+INFO:ffcx:--- degree: 2
+INFO:ffcx:--- value shape: ()
+INFO:ffcx:--- name: element_d953025b4039816d2dc36871c464b2ef37be8e9d
+INFO:ffcx:Generating code for finite element:
+INFO:ffcx:--- family: P
+INFO:ffcx:--- degree: 2
+INFO:ffcx:--- value shape: (3,)
+INFO:ffcx:--- name: element_c9b1501d70cc0030857f8929b44f87bf0e37ea43
+INFO:ffcx:Generating code for finite element:
+INFO:ffcx:--- family: P
+INFO:ffcx:--- degree: 1
+INFO:ffcx:--- value shape: ()
+INFO:ffcx:--- name: element_1254ce1d6b1bc36081c83936d6a1320431a5fa92
+INFO:ffcx:Generating code for finite element:
+INFO:ffcx:--- family: mixed element
+INFO:ffcx:--- degree: 2
+INFO:ffcx:--- value shape: (4,)
+INFO:ffcx:--- name: element_263b09ed76dc7eb520733e3cde10d99563564670
+INFO:ffcx:Generating code for finite element:
+INFO:ffcx:--- family: P
+INFO:ffcx:--- degree: 1
+INFO:ffcx:--- value shape: ()
+INFO:ffcx:--- name: element_19254ff21b99bad6b32397984113531fde7d12d6
+INFO:ffcx:Generating code for finite element:
+INFO:ffcx:--- family: P
+INFO:ffcx:--- degree: 1
+INFO:ffcx:--- value shape: (3,)
+INFO:ffcx:--- name: element_6518eecb5aed25077c08638d9ca543646649391e
+INFO:ffcx:Generating code for dofmap:
+INFO:ffcx:--- num element support dofs: 10
+INFO:ffcx:--- name: dofmap_d953025b4039816d2dc36871c464b2ef37be8e9d
+INFO:ffcx:Generating code for dofmap:
+INFO:ffcx:--- num element support dofs: 10
+INFO:ffcx:--- name: dofmap_c9b1501d70cc0030857f8929b44f87bf0e37ea43
+INFO:ffcx:Generating code for dofmap:
+INFO:ffcx:--- num element support dofs: 4
+INFO:ffcx:--- name: dofmap_1254ce1d6b1bc36081c83936d6a1320431a5fa92
+INFO:ffcx:Generating code for dofmap:
+INFO:ffcx:--- num element support dofs: 34
+INFO:ffcx:--- name: dofmap_263b09ed76dc7eb520733e3cde10d99563564670
+INFO:ffcx:Generating code for dofmap:
+INFO:ffcx:--- num element support dofs: 4
+INFO:ffcx:--- name: dofmap_19254ff21b99bad6b32397984113531fde7d12d6
+INFO:ffcx:Generating code for dofmap:
+INFO:ffcx:--- num element support dofs: 4
+INFO:ffcx:--- name: dofmap_6518eecb5aed25077c08638d9ca543646649391e
+INFO:ffcx:Generating code for integral:
+INFO:ffcx:--- type: cell
+INFO:ffcx:--- name: integral_26151eb13b8cb4866158fcc4d3da8b9fde27cc83
+INFO:ffcx:Generating code for form:
+INFO:ffcx:--- rank: 2
+INFO:ffcx:--- name: form_959b6be842a5c367538b3283a812e63673c0ac5e
+INFO:ffcx:Generating code for file
+INFO:ffcx:Compiler stage 3 finished in 0.0849 seconds.
+INFO:ffcx:*******************************************************************************
+INFO:ffcx:Compiler stage 5: Formatting code
+INFO:ffcx:*******************************************************************************
+INFO:ffcx:Compiler stage 4 finished in 0.0009 seconds.
+INFO:ffcx:###############################################################################
+INFO:ffcx:Calling JIT C compiler
+INFO:ffcx:###############################################################################
+ld: warning: -pie being ignored. It is only used when linking a main executable
+2023-10-19 13:32:44.984 (   4.494s) [main            ]    SparsityPattern.cpp:384   INFO| Column ghost size increased from 0 to 0
+2023-10-19 13:32:44.986 (   4.496s) [main            ]           XDMFFile.cpp:48    INFO| Opened HDF5 file with id "72057594037927938"
+2023-10-19 13:32:44.986 (   4.496s) [main            ]          xdmf_mesh.cpp:226   INFO| Adding mesh to node "/Xdmf/Domain"
+2023-10-19 13:32:44.986 (   4.496s) [main            ]          xdmf_mesh.cpp:29    INFO| Adding topology data to node "/Xdmf/Domain/Grid"
+2023-10-19 13:32:44.986 (   4.496s) [main            ]          xdmf_mesh.cpp:173   INFO| Adding geometry data to node "/Xdmf/Domain/Grid"
